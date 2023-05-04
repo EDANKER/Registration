@@ -1,0 +1,152 @@
+body{
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image_gtabigsmoke{
+    margin-left: 0px;
+
+
+}
+
+.front-image{
+
+}
+
+.inteface_gtabigsmoke{
+    position: relative;
+    margin-top: 50px;
+
+}
+
+
+.input-name{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 0.275rem 0.25rem;
+    font-family: Arial, serif;
+    border-radius: 100px;
+    border-color: #b25c9c;
+    width: 200px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 820px;
+    height: 40px;
+}
+
+.input-name:active{
+    border-color: #259372;
+}
+
+.input-password{
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.275rem 0.25rem;
+    font-family: Arial, serif;
+    font-weight: bold;
+    border-radius: 100px;
+    border-color: #b25c9c;
+    width: 200px;
+    position:absolute;
+    height: 40px;
+    margin-top: 379px;
+    margin-left: 820px;
+}
+
+.submit{
+    font-family: Arial, serif;
+    font-weight: 100;
+    border-color: #b25c9c;
+    background: linear-gradient(#259372, #16c084) #2f7228;
+    width: 173px;
+    height: 35px;
+    border-radius: 30px;
+    color: white;
+    position:absolute;
+    margin-top: 460px;
+    margin-left: 840px;
+}
+
+.submit:active{
+    font-family: Arial, serif;
+    font-weight: 100;
+    background: linear-gradient(#259372, #444d49) #2f7228;
+}
+
+.Registration{
+    font-family: Arial, serif;
+    font-weight: 100;
+    text-align: center;
+    text-align-last: auto;
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 770px;
+    width: 100px;
+    height: 20px;
+    border-radius: 40px;
+}
+
+.Login{
+    font-family: Arial, serif;
+    font-weight: 100;
+    background: linear-gradient(#259372, #444d49) #2f7228;
+    text-align: center;
+    text-align-last: auto;
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 940px;
+    width: 100px;
+    height: 20px;
+    border-radius: 40px;
+}
+
+.erorr{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 500px;
+    margin-left: 840px;
+    font-family: Arial, "Agency FB";
+    font-weight: 100;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #b25c9c;
+    border-radius: 6px;
+    background: linear-gradient(#259372, #16c084) #2f7228;
+    transition: 0.2s;
+}
+
+h4{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #b25c9c;
+    border-radius: 6px;
+    background: linear-gradient(#259372, #16c084) #2f7228;
+    transition: 0.2s;
+}
+
+.colorerorr{
+    color: white;
+}
+
+
+
+
+
