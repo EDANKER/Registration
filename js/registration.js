@@ -25,6 +25,7 @@ const textregpassreply = "пароли не совпадают";
 const regmail = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 const reglogin = /^[a-zA-Z\s]+$/;
 const regpassword = /((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})/;
+
 function regis() {
 
     if (input_mail.value.length === 0 && input_login.value.length === 0 &&
@@ -69,5 +70,6 @@ function regis() {
         passrep_lable.innerHTML = "";
     }
 
-
 }
+
+

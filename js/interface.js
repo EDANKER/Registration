@@ -7,6 +7,7 @@ const texterorr = "ввидите данные";
 const textnoname = "ввидите логин";
 const textnopassword = "ввидите пароль";
 
+
 function button_erorr() {
     if (input_name.value.length === 0 && input_password.value.length === 0) {
         erorr_input.innerHTML = texterorr;

@@ -17,6 +17,8 @@ body{
 }
 
 .inteface_gtabigsmoke{
+    width: 1900px;
+    height: 800px;
     position: relative;
     margin-top: 50px;
 
@@ -24,6 +26,7 @@ body{
 
 
 .input-name{
+    display: inline-block;
     font-size: 1rem;
     line-height: 1.5;
     font-weight: bold;
@@ -43,6 +46,7 @@ body{
 }
 
 .input-password{
+    display: inline-block;
     font-size: 1rem;
     line-height: 1.5;
     padding: 0.275rem 0.25rem;
@@ -58,6 +62,7 @@ body{
 }
 
 .submit{
+    display: inline-block;
     font-family: Arial, serif;
     font-weight: 100;
     border-color: #b25c9c;
@@ -78,6 +83,7 @@ body{
 }
 
 .Registration{
+    display: inline-block;
     font-family: Arial, serif;
     font-weight: 100;
     text-align: center;
@@ -91,6 +97,7 @@ body{
 }
 
 .Login{
+    display: inline-block;
     font-family: Arial, serif;
     font-weight: 100;
     background: linear-gradient(#259372, #444d49) #2f7228;
@@ -105,6 +112,7 @@ body{
 }
 
 .erorr{
+    display: inline-block;
     position: absolute;
     width: 150px;
     height: 40px;
@@ -128,6 +136,18 @@ a{
     transition: 0.2s;
 }
 
+.lable{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 840px;
+
+}
+
+.password-checkbox{
+    align-content: center;
+    align-items: center;
+}
+
 h4{
     display: inline-block;
     color: white;
@@ -145,6 +165,34 @@ h4{
 .colorerorr{
     color: white;
 }
+
+.password{
+    position: relative;
+}
+
+.password-control{
+    position: absolute;
+    top: 11px;
+    right: 6px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:  0 0 no-repeat;
+}
+
+.password-control.view{
+    background: 0 0 no-repeat;
+}
+
+.pull-server{
+    align-items: center;
+    color: red;
+    top: 220px;
+    left: 830px;
+    display: inline-block;
+    position: absolute;
+}
+
 
 
 

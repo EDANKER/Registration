@@ -9,9 +9,12 @@
 <div class="inteface_gtabigsmoke">
     <a href="registration.html" class="Registration">Регистрация</a>
     <h4 href="" class="Login">Вход</h4>
-    <label></label>
+    <label class="pull-server" id="pull_server">не верный логин или пароль</label>
     <input id="input-name" class="input-name" placeholder=" введите ваше имя" name="login-input">
-    <input id="input-password" class="input-password" placeholder=" введите ваш пароль" >
+    <div class="password">
+    <input id="input-password" class="input-password" placeholder=" введите ваш пароль" name="password" type="password">
+<!--        <a href="#" class="password-control"></a>-->
+    </div>
     <div class="erorr" id="erorr"></div>
     <button onclick="button_erorr()" id="submit" class="submit">вход</button>
 
@@ -21,5 +24,6 @@
 </div>
 
 <script src="./js/interface.js"></script>
+<script src="./js/protection.mjs"></script>
 </body>
 </html>
